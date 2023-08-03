@@ -47,6 +47,7 @@ const actions = {
     async userLogin({commit},user){
         let result = await reqUserLogin(user)
         if (result.code ==200){
+            console.log('123456',result)
             setToken(result.data.token)
             commit('USERLOGIN',result.data.token)
             return 'ok'
@@ -76,7 +77,7 @@ const actions = {
 
     }
 
-} 
+}
 const getters = {
 
 }

@@ -4,7 +4,7 @@ import {dateFormat} from "@/utils/dateUtil";
 export default createStore({
     state:{
         form:{
-            name: '张张',
+            name: 'aa',
             date:'Thu Jan 12 2023 15:04:43 GMT+0800 (中国标准时间)',
             card: false,
             Signal:'',

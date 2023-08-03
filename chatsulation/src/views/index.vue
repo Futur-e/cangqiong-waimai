@@ -12,7 +12,7 @@
       <span style="">聊天记录模拟器 <span style="color: red">(仅用于娱乐)</span></span>
     </div>
     <div style="height: 59px;line-height: 59px;">
-      <el-button type="text" @click="openDialog" style="font-size: 16px">意见/反馈</el-button>
+      <el-button type="text" style="font-size: 16px">意见/反馈</el-button>
       <el-dialog
           title="联系我们"
           v-model="centerDialogVisible"

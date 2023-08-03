@@ -1,6 +1,14 @@
 <template>
-
-shouye
+  <el-row>
+    <el-col :span="2"></el-col>
+    <el-col :span="7">
+      <XchatPhone></XchatPhone>
+    </el-col>
+    <el-col :span="2"></el-col>
+    <el-col :span="12">
+      <XcharDetails></XcharDetails>
+    </el-col>
+  </el-row>
 
 </template>
 

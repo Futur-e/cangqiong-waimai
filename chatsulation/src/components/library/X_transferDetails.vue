@@ -40,7 +40,7 @@ export default {
     const store = useStore()
     const transfer = ref({
       id:'转账记录',
-       tex:'张张',
+       tex:'aa',
       money:'1234.00'
     })
     onMounted(()=>{
